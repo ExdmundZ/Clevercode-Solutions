@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long long sk = 0, sum = 0;
+
+    cin >> sk;
+
+   while(sk>0)
+   {
+    sum = sum + sk%10;
+    sk = sk/10;
+   }
+   cout << sum;
+   return 0;
+
+
+
+}
