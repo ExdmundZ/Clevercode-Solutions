@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int sk1 = 0, sk2 = 0;
+    cin >> sk1 >> sk2;
+    if(sk1<sk2)
+    {
+      for(int i = 0; i < sk2;i = i + 1)
+        {
+            cout << sk1 << endl;
+        }
+    }
+    else
+    {
+       for(int i = 0; i < sk1 ; i = i + 1)
+        {
+          cout << sk2 << endl;
+        }
+    }
+
+}
