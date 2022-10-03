@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n = 0, sk = 0, meksk = 0, res = 0;
+    cin >> n >> meksk;
+    for(int i = 0; i < n; i = i + 1)
+    {
+        cin >> sk;
+        if (sk==meksk)
+        {
+            res = res + 1;
+        }
+
+    }
+cout << res;
+}
