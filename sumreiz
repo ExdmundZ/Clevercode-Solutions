@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+	int n = 0;
+	cin >> n;
+
+	for (int i = n; i > 0; i = i - 1) {
+
+		int cipsum = 0, cipreiz = 1, p = n;
+
+		while (p) {
+
+			cipsum += p % 10;
+
+			cipreiz *= p % 10;
+
+			p /= 10;
+		}
+		n += cipsum + cipreiz;
+	}
+	cout << n;
+}
