@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int sk1 = 0, sk2 = 0;
+    cin >> sk1 >> sk2;
+    cout << sk1+sk2;
+
+
+    return 0;
+}
