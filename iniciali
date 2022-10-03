@@ -1,0 +1,24 @@
+#include <iostream>
+
+
+
+using namespace std;
+
+
+
+int main()
+ {
+	char vards1[15];
+
+	char vards2[15];
+
+	cin >> vards1 >> vards2;
+
+	char izv[6] = " . .";
+
+	izv[0] = vards1[0];
+
+	izv[2] = vards2[0];
+
+	cout << izv;
+}
